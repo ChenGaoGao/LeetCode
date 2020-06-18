@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F8FC1249B053B00CC017E /* 207 课程表.swift */; };
+		3EB374BE2499F2E20093521D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374BD2499F2E20093521D /* main.swift */; };
+		3EB374CF2499F3200093521D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374CA2499F3200093521D /* ListNode.swift */; };
+		3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */; };
+		3EB374D62499F3660093521D /* 26 删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D32499F3650093521D /* 26 删除排序数组中的重复项.swift */; };
+		3EB374D72499F3660093521D /* 80 删除排序数组中的重复项 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */; };
+		3EB374DC2499F3D70093521D /* 2 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374DB2499F3D70093521D /* 2 两数相加.swift */; };
+		3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374DD2499F8C90093521D /* 22 括号生成.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EB374B82499F2E20093521D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E0F8FC1249B053B00CC017E /* 207 课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207 课程表.swift"; sourceTree = "<group>"; };
+		3EB374BA2499F2E20093521D /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB374BD2499F2E20093521D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3EB374CA2499F3200093521D /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "121 买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
+		3EB374D32499F3650093521D /* 26 删除排序数组中的重复项.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26 删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
+		3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "80 删除排序数组中的重复项 II.swift"; sourceTree = "<group>"; };
+		3EB374DB2499F3D70093521D /* 2 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 两数相加.swift"; sourceTree = "<group>"; };
+		3EB374DD2499F8C90093521D /* 22 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22 括号生成.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB374B72499F2E20093521D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0F8FC0249B052500CC017E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F8FC1249B053B00CC017E /* 207 课程表.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		3EB374B12499F2E20093521D = {
+			isa = PBXGroup;
+			children = (
+				3EB374BC2499F2E20093521D /* LeetCode */,
+				3EB374BB2499F2E20093521D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB374BB2499F2E20093521D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374BA2499F2E20093521D /* LeetCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB374BC2499F2E20093521D /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374C92499F3200093521D /* Public */,
+				3EB374D02499F3650093521D /* PrimaryAlgorithms */,
+				3E0F8FC0249B052500CC017E /* Map */,
+				3EB374D82499F3B20093521D /* Other */,
+				3EB374BD2499F2E20093521D /* main.swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		3EB374C92499F3200093521D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374CA2499F3200093521D /* ListNode.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		3EB374D02499F3650093521D /* PrimaryAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374D12499F3650093521D /* Array */,
+			);
+			path = PrimaryAlgorithms;
+			sourceTree = "<group>";
+		};
+		3EB374D12499F3650093521D /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374D32499F3650093521D /* 26 删除排序数组中的重复项.swift */,
+				3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */,
+				3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		3EB374D82499F3B20093521D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3EB374DB2499F3D70093521D /* 2 两数相加.swift */,
+				3EB374DD2499F8C90093521D /* 22 括号生成.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB374B92499F2E20093521D /* LeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB374C12499F2E20093521D /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildPhases = (
+				3EB374B62499F2E20093521D /* Sources */,
+				3EB374B72499F2E20093521D /* Frameworks */,
+				3EB374B82499F2E20093521D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = 3EB374BA2499F2E20093521D /* LeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB374B22499F2E20093521D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Gao;
+				TargetAttributes = {
+					3EB374B92499F2E20093521D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 3EB374B52499F2E20093521D /* Build configuration list for PBXProject "LeetCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB374B12499F2E20093521D;
+			productRefGroup = 3EB374BB2499F2E20093521D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB374B92499F2E20093521D /* LeetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB374B62499F2E20093521D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB374D62499F3660093521D /* 26 删除排序数组中的重复项.swift in Sources */,
+				3EB374D72499F3660093521D /* 80 删除排序数组中的重复项 II.swift in Sources */,
+				3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */,
+				3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */,
+				3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */,
+				3EB374BE2499F2E20093521D /* main.swift in Sources */,
+				3EB374CF2499F3200093521D /* ListNode.swift in Sources */,
+				3EB374DC2499F3D70093521D /* 2 两数相加.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EB374BF2499F2E20093521D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EB374C02499F2E20093521D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3EB374C22499F2E20093521D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3EB374C32499F2E20093521D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB374B52499F2E20093521D /* Build configuration list for PBXProject "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB374BF2499F2E20093521D /* Debug */,
+				3EB374C02499F2E20093521D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB374C12499F2E20093521D /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB374C22499F2E20093521D /* Debug */,
+				3EB374C32499F2E20093521D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB374B22499F2E20093521D /* Project object */;
+}
