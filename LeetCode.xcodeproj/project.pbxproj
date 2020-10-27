@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F8FC1249B053B00CC017E /* 207 课程表.swift */; };
+		3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */; };
 		3EB374BE2499F2E20093521D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374BD2499F2E20093521D /* main.swift */; };
 		3EB374CF2499F3200093521D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374CA2499F3200093521D /* ListNode.swift */; };
 		3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */; };
@@ -15,6 +16,8 @@
 		3EB374D72499F3660093521D /* 80 删除排序数组中的重复项 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */; };
 		3EB374DC2499F3D70093521D /* 2 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374DB2499F3D70093521D /* 2 两数相加.swift */; };
 		3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374DD2499F8C90093521D /* 22 括号生成.swift */; };
+		3EB7FD882548192600F8B3E1 /* 217 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */; };
+		3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		3E0F8FC1249B053B00CC017E /* 207 课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207 课程表.swift"; sourceTree = "<group>"; };
+		3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724 寻找数组的中心索引.swift"; sourceTree = "<group>"; };
 		3EB374BA2499F2E20093521D /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB374BD2499F2E20093521D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3EB374CA2499F3200093521D /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "80 删除排序数组中的重复项 II.swift"; sourceTree = "<group>"; };
 		3EB374DB2499F3D70093521D /* 2 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 两数相加.swift"; sourceTree = "<group>"; };
 		3EB374DD2499F8C90093521D /* 22 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22 括号生成.swift"; sourceTree = "<group>"; };
+		3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217 存在重复元素.swift"; sourceTree = "<group>"; };
+		3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 				3EB374D32499F3650093521D /* 26 删除排序数组中的重复项.swift */,
 				3EB374D42499F3650093521D /* 80 删除排序数组中的重复项 II.swift */,
 				3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */,
+				3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */,
+				3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -119,6 +127,7 @@
 			children = (
 				3EB374DB2499F3D70093521D /* 2 两数相加.swift */,
 				3EB374DD2499F8C90093521D /* 22 括号生成.swift */,
+				3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -150,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = Gao;
 				TargetAttributes = {
 					3EB374B92499F2E20093521D = {
@@ -183,11 +192,14 @@
 			files = (
 				3EB374D62499F3660093521D /* 26 删除排序数组中的重复项.swift in Sources */,
 				3EB374D72499F3660093521D /* 80 删除排序数组中的重复项 II.swift in Sources */,
+				3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */,
+				3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */,
 				3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */,
 				3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */,
 				3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */,
 				3EB374BE2499F2E20093521D /* main.swift in Sources */,
 				3EB374CF2499F3200093521D /* ListNode.swift in Sources */,
+				3EB7FD882548192600F8B3E1 /* 217 存在重复元素.swift in Sources */,
 				3EB374DC2499F3D70093521D /* 2 两数相加.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +233,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -281,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -311,6 +325,7 @@
 		3EB374C22499F2E20093521D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -320,6 +335,7 @@
 		3EB374C32499F2E20093521D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
