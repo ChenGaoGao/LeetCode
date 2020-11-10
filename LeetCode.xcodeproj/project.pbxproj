@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F8FC1249B053B00CC017E /* 207 课程表.swift */; };
+		3E1D8A4025593680005CB103 /* 反向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D8A3F25593680005CB103 /* 反向链表.swift */; };
 		3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */; };
 		3EB374BE2499F2E20093521D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374BD2499F2E20093521D /* main.swift */; };
 		3EB374CF2499F3200093521D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374CA2499F3200093521D /* ListNode.swift */; };
@@ -18,6 +19,7 @@
 		3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374DD2499F8C90093521D /* 22 括号生成.swift */; };
 		3EB7FD882548192600F8B3E1 /* 217 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */; };
 		3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */; };
+		3EC98FB3255A92DE00391E6D /* 归并排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC98FB2255A92DE00391E6D /* 归并排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		3E0F8FC1249B053B00CC017E /* 207 课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207 课程表.swift"; sourceTree = "<group>"; };
+		3E1D8A3F25593680005CB103 /* 反向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "反向链表.swift"; sourceTree = "<group>"; };
 		3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724 寻找数组的中心索引.swift"; sourceTree = "<group>"; };
 		3EB374BA2499F2E20093521D /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB374BD2499F2E20093521D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		3EB374DD2499F8C90093521D /* 22 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22 括号生成.swift"; sourceTree = "<group>"; };
 		3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217 存在重复元素.swift"; sourceTree = "<group>"; };
 		3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350 两个数组的交集 II.swift"; sourceTree = "<group>"; };
+		3EC98FB2255A92DE00391E6D /* 归并排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "归并排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				3EB374DB2499F3D70093521D /* 2 两数相加.swift */,
 				3EB374DD2499F8C90093521D /* 22 括号生成.swift */,
 				3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */,
+				3E1D8A3F25593680005CB103 /* 反向链表.swift */,
+				3EC98FB2255A92DE00391E6D /* 归并排序.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -192,9 +198,11 @@
 			files = (
 				3EB374D62499F3660093521D /* 26 删除排序数组中的重复项.swift in Sources */,
 				3EB374D72499F3660093521D /* 80 删除排序数组中的重复项 II.swift in Sources */,
+				3EC98FB3255A92DE00391E6D /* 归并排序.swift in Sources */,
 				3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */,
 				3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */,
 				3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */,
+				3E1D8A4025593680005CB103 /* 反向链表.swift in Sources */,
 				3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */,
 				3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */,
 				3EB374BE2499F2E20093521D /* main.swift in Sources */,

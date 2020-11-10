@@ -29,13 +29,16 @@ import Foundation
 
 
 // MARK: - 217 存在重复元素
-Solution217.solution()
+//Solution217.solution()
 
 
 // MARK: - 350 两个数组的交集 II
-Solution350.solution()
+//Solution350.solution()
 
 
 // MARK: - 724 寻找数组的中心索引
 //Solution724.solution()
 
+
+//SolutionFan.solution()
+SolutionGuiBing.solution()
