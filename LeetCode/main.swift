@@ -37,8 +37,8 @@ import Foundation
 
 
 // MARK: - 724 寻找数组的中心索引
-//Solution724.solution()
+Solution724.solution()
 
 
 //SolutionFan.solution()
-SolutionGuiBing.solution()
+//SolutionGuiBing.solution()

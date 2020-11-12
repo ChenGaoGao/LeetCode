@@ -10,6 +10,7 @@
 		3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F8FC1249B053B00CC017E /* 207 课程表.swift */; };
 		3E1D8A4025593680005CB103 /* 反向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D8A3F25593680005CB103 /* 反向链表.swift */; };
 		3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */; };
+		3E295D3E255BC2A200B46489 /* 冒泡排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E295D3D255BC2A200B46489 /* 冒泡排序.swift */; };
 		3EB374BE2499F2E20093521D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374BD2499F2E20093521D /* main.swift */; };
 		3EB374CF2499F3200093521D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374CA2499F3200093521D /* ListNode.swift */; };
 		3EB374D52499F3660093521D /* 121 买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB374D22499F3650093521D /* 121 买卖股票的最佳时机.swift */; };
@@ -38,6 +39,7 @@
 		3E0F8FC1249B053B00CC017E /* 207 课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207 课程表.swift"; sourceTree = "<group>"; };
 		3E1D8A3F25593680005CB103 /* 反向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "反向链表.swift"; sourceTree = "<group>"; };
 		3E22720524C05DC800ED48DA /* 724 寻找数组的中心索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724 寻找数组的中心索引.swift"; sourceTree = "<group>"; };
+		3E295D3D255BC2A200B46489 /* 冒泡排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "冒泡排序.swift"; sourceTree = "<group>"; };
 		3EB374BA2499F2E20093521D /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB374BD2499F2E20093521D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3EB374CA2499F3200093521D /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -70,6 +72,29 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		3E295D3A255BC15600B46489 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				3E295D3B255BC19A00B46489 /* LinkedList */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		3E295D3B255BC19A00B46489 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		3E295D3C255BC20200B46489 /* BasicSortingAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3E295D3D255BC2A200B46489 /* 冒泡排序.swift */,
+			);
+			path = BasicSortingAlgorithm;
+			sourceTree = "<group>";
+		};
 		3EB374B12499F2E20093521D = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				3EB374C92499F3200093521D /* Public */,
+				3E295D3A255BC15600B46489 /* DataStructure */,
+				3E295D3C255BC20200B46489 /* BasicSortingAlgorithm */,
 				3EB374D02499F3650093521D /* PrimaryAlgorithms */,
 				3E0F8FC0249B052500CC017E /* Map */,
 				3EB374D82499F3B20093521D /* Other */,
@@ -201,6 +228,7 @@
 				3EC98FB3255A92DE00391E6D /* 归并排序.swift in Sources */,
 				3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */,
 				3E22720624C05DC800ED48DA /* 724 寻找数组的中心索引.swift in Sources */,
+				3E295D3E255BC2A200B46489 /* 冒泡排序.swift in Sources */,
 				3E0F8FC2249B053B00CC017E /* 207 课程表.swift in Sources */,
 				3E1D8A4025593680005CB103 /* 反向链表.swift in Sources */,
 				3EB374DE2499F8C90093521D /* 22 括号生成.swift in Sources */,

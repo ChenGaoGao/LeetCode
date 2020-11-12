@@ -39,14 +39,6 @@ class Solution724 {
                 left = left + nums[i]
             }
             
-//            if right - left  {
-//                <#code#>
-//            }
-            
-            
-            
-            
-            
             
             if  right <= 0 && left < right {
                 j -= 1
