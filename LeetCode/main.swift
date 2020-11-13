@@ -8,6 +8,21 @@
 
 import Foundation
 
+
+// MARK: - 基础排序算法
+// 冒泡
+//SolutionBubbleSort.solution()
+
+// 选择
+//SolutionSelectSort.solution()
+
+// 插入
+//SolutionInsertionSort.solution()
+
+// 希尔
+SolutionShellSort.solution()
+
+
 // MARK: - 2 两数相加
 //Solution2.solution()
 
@@ -37,8 +52,10 @@ import Foundation
 
 
 // MARK: - 724 寻找数组的中心索引
-Solution724.solution()
+//Solution724.solution()
 
 
 //SolutionFan.solution()
 //SolutionGuiBing.solution()
+
+

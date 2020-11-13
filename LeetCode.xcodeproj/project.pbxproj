@@ -21,6 +21,9 @@
 		3EB7FD882548192600F8B3E1 /* 217 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */; };
 		3EB7FD8C2548242600F8B3E1 /* 350 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */; };
 		3EC98FB3255A92DE00391E6D /* 归并排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC98FB2255A92DE00391E6D /* 归并排序.swift */; };
+		3EEFC7E5255E702700BCA7BA /* 选择排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFC7E4255E702700BCA7BA /* 选择排序.swift */; };
+		3EEFC7E8255E744100BCA7BA /* 插入排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFC7E7255E744100BCA7BA /* 插入排序.swift */; };
+		3EEFC7EB255E83C200BCA7BA /* 希尔排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEFC7EA255E83C200BCA7BA /* 希尔排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +54,9 @@
 		3EB7FD872548192600F8B3E1 /* 217 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217 存在重复元素.swift"; sourceTree = "<group>"; };
 		3EB7FD8B2548242600F8B3E1 /* 350 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 		3EC98FB2255A92DE00391E6D /* 归并排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "归并排序.swift"; sourceTree = "<group>"; };
+		3EEFC7E4255E702700BCA7BA /* 选择排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "选择排序.swift"; sourceTree = "<group>"; };
+		3EEFC7E7255E744100BCA7BA /* 插入排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "插入排序.swift"; sourceTree = "<group>"; };
+		3EEFC7EA255E83C200BCA7BA /* 希尔排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "希尔排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				3E295D3D255BC2A200B46489 /* 冒泡排序.swift */,
+				3EEFC7E4255E702700BCA7BA /* 选择排序.swift */,
+				3EEFC7E7255E744100BCA7BA /* 插入排序.swift */,
+				3EEFC7EA255E83C200BCA7BA /* 希尔排序.swift */,
 			);
 			path = BasicSortingAlgorithm;
 			sourceTree = "<group>";
@@ -236,7 +245,10 @@
 				3EB374BE2499F2E20093521D /* main.swift in Sources */,
 				3EB374CF2499F3200093521D /* ListNode.swift in Sources */,
 				3EB7FD882548192600F8B3E1 /* 217 存在重复元素.swift in Sources */,
+				3EEFC7E8255E744100BCA7BA /* 插入排序.swift in Sources */,
 				3EB374DC2499F3D70093521D /* 2 两数相加.swift in Sources */,
+				3EEFC7E5255E702700BCA7BA /* 选择排序.swift in Sources */,
+				3EEFC7EB255E83C200BCA7BA /* 希尔排序.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
