@@ -20,7 +20,7 @@ import Foundation
 //SolutionInsertionSort.solution()
 
 // 希尔
-SolutionShellSort.solution()
+//SolutionShellSort.solution()
 
 
 // MARK: - 2 两数相加
@@ -37,6 +37,10 @@ SolutionShellSort.solution()
 
 // MARK: - 80 删除排序数组中的重复项
 //Solution80.solution()
+
+
+// MARK: - 102 二叉树的层序遍历
+Solution102.solution()
 
 
 // MARK: - 207 课程表
@@ -58,4 +62,25 @@ SolutionShellSort.solution()
 //SolutionFan.solution()
 //SolutionGuiBing.solution()
 
+//SolutionTanXin.solution()
 
+
+
+
+//let possibleNumber = "123"
+//var convertedNumber = Int(possibleNumber)
+//var numint: Int? = 123
+//
+//
+//print(convertedNumber)
+//print(numint)
+//
+//convertedNumber = nil
+//numint = nil
+//
+//print(convertedNumber)
+//print(numint)
+//
+//let doubvar = 1.21875e1
+//
+//print(doubvar)
